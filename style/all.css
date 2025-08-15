@@ -342,7 +342,24 @@ a {
 }
 
 @media(max-width:767px) {
+	.h3-md {
+		font-size: 28px;
+	}
+	.h4-md {
+		font-size: 24px;
+	}
+	.h5-md {
+		font-size: 20px;
+	}
+	.h6-md {
+		font-size: 16px;
+	}
+}
 
+@media(max-width:576px) {
+	.h3-sm {
+		font-size: 28px;
+	}
 }
 
 .text-sm {
@@ -402,6 +419,37 @@ a {
 
 .pe-8 {
 	padding-right: 8px;
+}
+
+@media(max-width:767px) {
+	.h3-md {
+		font-size: 28px;
+	}
+	.h4-md {
+		font-size: 24px;
+	}
+	.py-md-32 {
+		padding-top: 32px;
+		padding-bottom: 32px;
+	}
+	.pb-md-32 {
+		padding-bottom: 32px;
+	}
+}
+
+@media(max-width:576px) {
+	.px-sm-12 {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.py-sm-12 {
+		padding-top: 12px;
+		padding-bottom: 12px;
+	}
+	.px-sm-32 {
+		padding-top: 32px;
+		padding-bottom: 32px;
+	}
 }
 
 .mb-4 {
